@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Pane prefHeight="160.0" prefWidth="300.0" style="-fx-background-color: #2A9A6C;" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="36.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reproducir/Parar">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </top>
+   <center>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-border-width: 3px;">
+               <children>
+                  <Text layoutX="20.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Anterior">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-border-width: 3px;">
+               <children>
+                  <Text layoutX="13.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Siguiente">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+   </center>
+   <bottom>
+      <Pane prefHeight="160.0" prefWidth="300.0" style="-fx-background-color: #8E6BC9;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="107.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Volver">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </bottom>
+</BorderPane>

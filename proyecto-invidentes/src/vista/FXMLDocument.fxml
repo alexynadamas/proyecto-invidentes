@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Pane onMouseClicked="#iniciarRuta" prefHeight="201.0" prefWidth="300.0" style="-fx-background-color: #67D6C9;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="78.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Iniciar ruta">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </top>
+   <center>
+      <Pane onMouseClicked="#detectarObstaculos" prefHeight="186.0" prefWidth="300.0" style="-fx-background-color: #C47B5F;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="101.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="94.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Detectar">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </center>
+   <bottom>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane onMouseClicked="#abrirPanelVideo" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #4A4A99;">
+               <children>
+                  <Text fill="WHITE" layoutX="37.0" layoutY="60.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Video">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane onMouseClicked="#cerrarAplicacion" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Text layoutX="46.0" layoutY="60.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Salir">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>
