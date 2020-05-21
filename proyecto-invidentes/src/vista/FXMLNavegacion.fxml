@@ -11,7 +11,7 @@
    <top>
       <Pane onMouseClicked="#reproducirSiguienteInstruccion" prefHeight="264.0" prefWidth="300.0" style="-fx-background-color: #C7C7F2;" BorderPane.alignment="CENTER">
          <children>
-            <Text fill="WHITE" layoutX="70.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Siguiente instrucción" textAlignment="CENTER" wrappingWidth="159.26953125">
+            <Text layoutX="70.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Siguiente instrucción" textAlignment="CENTER" wrappingWidth="159.26953125">
                <font>
                   <Font name="System Bold" size="28.0" />
                </font>

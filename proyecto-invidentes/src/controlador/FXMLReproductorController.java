@@ -7,7 +7,9 @@ package controlador;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.input.MouseEvent;
 
 /**
  * FXML Controller class
@@ -23,5 +25,21 @@ public class FXMLReproductorController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+
+    @FXML
+    private void reproducirPararAudio(MouseEvent event) {
+    }
+
+    @FXML
+    private void cargarVentanaPrincipal(MouseEvent event) {
+    }
+
+    @FXML
+    private void cargarAnteriorAudio(MouseEvent event) {
+    }
+
+    @FXML
+    private void cargarSiguienteAudio(MouseEvent event) {
+    }
     
 }

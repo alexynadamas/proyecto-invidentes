@@ -19,12 +19,13 @@ public class ProyectoInvidentes extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/vista/FXMLPrincipal.fxml"));
         
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
         stage.show();
+        stage.setTitle("Menú principal");
     }
 
     /**
