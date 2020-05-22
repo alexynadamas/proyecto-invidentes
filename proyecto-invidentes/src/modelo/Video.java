@@ -62,6 +62,5 @@ public class Video {
     public void setAudioNarracion(String audioNarracion) {
         this.audioNarracion = audioNarracion;
     }
-
     
 }

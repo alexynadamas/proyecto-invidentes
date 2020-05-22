@@ -28,7 +28,9 @@ public class FXMLNavegacionController implements Initializable {
 
     String destino;
     ArrayList<String> instrucciones;
-    Iterator<String> it = instrucciones.iterator();
+    Iterator<String> it;
+    
+    @FXML
     private BorderPane borderPaneFX;
 
     /**
@@ -36,7 +38,7 @@ public class FXMLNavegacionController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+
     }
 
     /**
@@ -79,7 +81,7 @@ public class FXMLNavegacionController implements Initializable {
      */
     @FXML
     private void pararContinuarNavegacion(MouseEvent event) {
-        
+        /* Activar/Desactivar el método reproducirInstuccion() */
     }
 
     /**
@@ -96,6 +98,7 @@ public class FXMLNavegacionController implements Initializable {
         System.out.println("iniciando ruta...");
         // ruta.calcularRuta();
         // instrucciones = ruta.getInstrucciones();
+        // it = instrucciones.iterator();
     }
 
     /**

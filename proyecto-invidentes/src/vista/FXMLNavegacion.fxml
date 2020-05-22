@@ -7,7 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.FXMLNavegacionController">
+<BorderPane fx:id="borderPaneFX" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.FXMLNavegacionController">
    <top>
       <Pane onMouseClicked="#reproducirSiguienteInstruccion" prefHeight="264.0" prefWidth="300.0" style="-fx-background-color: #C7C7F2;" BorderPane.alignment="CENTER">
          <children>
@@ -20,9 +20,9 @@
       </Pane>
    </top>
    <center>
-      <Pane prefHeight="123.0" prefWidth="300.0" style="-fx-background-color: #B09215;" BorderPane.alignment="CENTER">
+      <Pane onMouseClicked="#pararContinuarNavegacion" prefHeight="123.0" prefWidth="300.0" style="-fx-background-color: #B09215;" BorderPane.alignment="CENTER">
          <children>
-            <Text fill="WHITE" layoutX="24.0" layoutY="68.0" onMouseClicked="#pararContinuarNavegacion" strokeType="OUTSIDE" strokeWidth="0.0" text="Parar/Continuar" textAlignment="CENTER" wrappingWidth="251.26953125">
+            <Text fill="WHITE" layoutX="24.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parar/Continuar" textAlignment="CENTER" wrappingWidth="251.26953125">
                <font>
                   <Font name="System Bold" size="28.0" />
                </font>
